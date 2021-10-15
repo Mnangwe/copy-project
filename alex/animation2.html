@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .typing h1 {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typing h1 {
+  width: 2em;
+  animation: type 0.4s steps(5, end);
+  animation-fill-mode: forwards;
+}
+
+.typing h2 {
+    border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typing h2 {
+  width: 13.8em;
+  opacity: 0;
+  animation: type2 2s steps(40, end);
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.typing h3 {
+    border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typing h3 {
+  width: 28em;
+  opacity: 0;
+  animation: type3 4s steps(40, end);
+  animation-delay: 2.4s;
+  animation-fill-mode: forwards;
+}
+
+.typing p {
+    border-right: .15em solid orange;
+  font-family: "Courier";
+  /* font-size: 14px; */
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typing p {
+  width: 55.8em;
+  opacity: 0;
+  animation: type4 5s steps(20, end), blink .5s step-end infinite alternate;
+  animation-delay: 6.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="typing">
+        <h1>Hi,</h1>
+        <h2>I'm Azabenathi Pupuma.</h2>
+        <h3>
+            A Software Developer,
+            <span>Asparing Data Scientist</span>.
+        </h3>
+        <p>
+            A Web designer with experience in both <span>Front-end</span> and <span>Back-end</span>
+            , UI/UX, Responsive Web Design.
+        </p>
+    </div>
+</body>
+
+</html>

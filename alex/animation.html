@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            background: #333;
+            padding-top: 5em;
+            display: flex;
+            justify-content: center;
+        }
+
+        .typewriter h1 {
+            overflow: hidden;
+            /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid orange;
+            /* The typwriter cursor */
+            white-space: nowrap;
+            /* Keeps the content on a single line */
+            margin: 0 auto;
+            /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .15em;
+            /* Adjust as needed */
+            animation:
+                typing 1.5s steps(10, end)
+                /* blink-caret .75s step-end infinite; */
+        }
+
+        .typewriter h2 {
+            overflow: hidden;
+            /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid orange;
+            /* The typwriter cursor */
+            white-space: nowrap;
+            /* Keeps the content on a single line */
+            margin: 0 auto;
+            /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .15em;
+            /* Adjust as needed */
+            /* opacity: 0; */
+            /* Hide it before animation */
+            animation:
+                typing2 1.5s steps(30, end),
+                blink-caret .75s step-end infinite;
+            animation-delay: 1.5s;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        @keyframes typing2 {
+            from {
+                width: 0;
+                opacity: 0;
+            }
+
+            1% {
+                opacity: 1;
+            }
+
+            to {
+                width: 100%;
+                opacity: 1;
+            }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: orange;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="typewriter">
+        <h1>Hello,</h1>
+        <h2>my name is Azabenathi</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+    </div>
+
+
+</body>
+
+</html>

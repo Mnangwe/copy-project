@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: gray;
+            display: flex;
+            justify-content: space-around;
+            padding: 16px;
+        }
+        nav a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+        }
+        nav img {
+            display: none;
+        }
+        .container {
+            display: flex;
+            margin-top: 128px;
+            margin: 70px;
+            flex-wrap: nowrap;
+        }
+        
+        .paragraph2 {
+            position: relative;
+            text-align: center;
+        }
+        @media only screen and (max-width: 400px) {
+            nav a {
+                display: none;
+            }
+            nav img {
+                float: right;
+                display: inline;
+            }
+            .container {
+                flex-wrap: wrap;
+            }
+            .container .image{
+                /* width: 100%; */
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./humburger.jpg" width="30px" height="30px" alt="">
+        <a href="">| Home</a>
+        <a href="">| About</a>
+        <a href="">| Service</a>
+        <a href="">| Contacts</a>
+    </nav>
+    <div class="container">
+        <div class="image">
+            <img src="./image4.jpg" width="200px" height="200px" alt="">
+        </div>
+        <div class="paragraph1">
+            <h1>New Day, New Energy</h1>
+            <p>Please have a new day to fight again and forget about yesterday</p>
+        </div>
+    </div>
+    <p class="paragraph2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe at ad quod vitae necessitatibus sit eius facere quisquam sed et!
+    </p>
+</body>
+</html>

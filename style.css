@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  color: #ffffff;
+}
+
+/* Head of the page */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #292870;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+img .logo {
+  display: table;
+  white-space: nowrap;
+  object-fit: cover;
+  /* display: block; */
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+header a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+main .landing-page {
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(./asserts/background-1.jpg);
+    background-position: 50% 50%;
+    /* object-fit: cover; */
+    background-size: cover;
+
+    
+}
+
+main .landing-page h1 {
+    text-shadow: 3px 3px 13px rgb(0 0 0 / 25%);
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: Oswald, sans-serif;
+    text-transform: none;
+    margin: 7px auto 0;
+    color: aliceblue;
+}
+
+main .landing-page p {
+    font-size: 1.125rem;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 40%);
+    letter-spacing: 5px;
+    font-weight: 600;
+    width: 489px;
+    margin: 33px auto 0;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+}
+.image-logo {
+    width: 88px;
+    height: 88px;
+    margin: 50px auto 0;
+}
+/*  */
+div.l-links {
+    margin: 50px auto 0;
+    text-align: center;
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    width: 590px;
+    height: 81px;
+}
+
+a.download {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    align-self: center;
+    background: #f2f2f2;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 8px 0 rgb(0 0 0 / 40%);
+    margin: 0 auto 0 33px;
+    padding: 14px 40px 15px 38px;
+    text-decoration: none;
+    color: #292870;
+    border-radius: 50px;
+}
+a.download:hover {
+    background: #292870;;
+    color: #f2f2f2;
+    
+}
+
+a.free-trial {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+    align-self: center;
+    background-color: #292870;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 8px 0 rgb(0 0 0 / 40%);
+    margin: 0 auto 0 33px;
+    padding: 14px 40px 15px 38px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 50px;
+}
+a.free-trial:hover {
+    background-color: #efab47;
+}
+
+img.first-image {
+    height: 493px;
+    width: 916px;
+    margin: 33px auto 0;
+    object-fit: contain;
+    background-size: contain;
+}
+
+.image {
+    object-fit: cover;
+    vertical-align: middle;
+    /* display: block; */
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* Second Section of the project */
+.section-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #292870;
+}
+
+.left-side {
+    width: 570px;
+    height: 569px;
+    padding: 30px 30px 30px 0;
+    
+}
+.right-side {
+    width: 570px;
+    height: 569px;
+    padding: 30px 30px 30px 0;
+}
+ .left-side h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif, Oswald, sans-serif ;
+    color: #efab47;
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin: 0 auto 0 0;
+ }
+ .left-side p {
+    font-size: 1.125rem;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 40%);
+    letter-spacing: 5px;
+    font-weight: 600;
+    width: 489px;
+    margin: 33px auto 0;
+    color: aliceblue;
+ }
+.right-side .sec-2-image {
+    width: 270px;
+    height: 270px;
+    /* background: url(./asserts/background-3.jpg); */
+    border-radius: 50%;
+    background-position: 50% 50%;
+    margin: 0 283px 0 0;
+}
+ .right-side .section-2-image{
+    width: 277px;
+    height: 277px;
+    border-radius: 50%;
+ }
+
+ .right-side h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 36px auto 0 0;
+    color: #efab47
+ }
+
+ .right-side .sec-2-border {
+    width: 198px;
+    height: 10px;
+    transform-origin: left center;
+    margin: 23px auto 0 0;
+    background-color: #efab47;;
+ }
+
+ .right-side p {
+    margin: 30px 219px 30px 0;
+    color: #ffffff;
+ }
+ .right-side a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #292870;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    box-shadow: 2px 2px 10px 0 rgb(0 0 0 / 25%);
+    font-weight: 600;
+    margin: 20px auto 0 0; 
+    background-color: #efab47;
+    align-self: center;
+    padding: 11px 50px 13px 48px;
+    border-radius: 50px;
+ }
+ .right-side a:hover {
+    background-color: #ffffff; 
+ }
+
+ /* Third section of the page */
+
+ .section-3 {
+    background: url(./asserts/background-2.jpg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+ .section-3 .paragraphs {
+     width: 551px;
+     height: 636px;
+     padding: 30px 26px 30px 0;
+     text-align: left;
+     color: #ffffff;
+ }
+ .section-3 .section-3-right{
+     width: 589px;
+     height: 636px;
+ }
+
+ .section-3 .paragraphs h2 {
+    line-height: 1;
+    text-shadow: 3px 3px 9px rgb(0 0 0 / 40%);
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    font-size: 6rem;
+    margin: 0 auto 0 0;
+ }
+
+.section-3 .paragraphs h4  {
+    text-shadow: 2px 2px 9px rgb(0 0 0 / 40%);
+    font-size: 2.25rem;
+    line-height: 1;
+    letter-spacing: 4px;
+    background-image: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 2px 2px 0 0 rgb(0 0 0 / 0%);
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto 0 0;
+ }
+ .section-3 .paragraphs .first-paragraph {
+    font-size: 1.125rem;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 40%);
+    letter-spacing: 5px;
+    font-weight: 600;
+    width: 489px;
+    margin: 33px auto 0;
+    color: aliceblue;
+ }
+ .section-3 .paragraphs h3 {
+    text-shadow: 1px 1px 11px rgb(0 0 0 / 40%);
+    font-size: 2.25rem;
+    margin: 134px 266px 0 0;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    
+ }
+ .section-3 .paragraphs .second-paragraph{
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
+    letter-spacing: 0px;
+    text-transform: none;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    margin: 20px 146px 0 0;
+}
+
+
+
+ div.section-3-right.image-3 {
+    padding: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    /* flex: 1; */
+    max-width: 100%;
+ }
+ .section-3 .paragraphs img {
+    margin-top: 62px;
+    margin-bottom: 0;
+    /* height: 544px; */
+ }
+
+ /* Section four to finish */
+ 
+ .section-4 {
+    display: block;
+    position: relative;
+    background-color: #292870;
+ }
+ 
+ .section-4 .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .section-4 h2 {
+    font-weight: 400;
+    font-size: 3.75rem;
+    margin-top: 60px;
+    margin: 0px auto 0 0;
+    color: #efab47;
+    
+ }
+
+ /* .section-4 .icons-4 {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ } */
+ .section-4 .icons-4 .icon {
+     width: 370px;
+     height: 341px;
+ }
+
+ .section-4 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #292870;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    box-shadow: 2px 2px 10px 0 rgb(0 0 0 / 25%);
+    font-weight: 600;
+    margin: 20px auto 0 0; 
+    background-color: #efab47;
+    align-self: center;
+    padding: 11px 50px 13px 48px;
+    border-radius: 50px;
+ }
+
+ .section-4 a:hover {
+    background-color: #ffffff; 
+ }
